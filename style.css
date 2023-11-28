@@ -1,0 +1,60 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section{
+    width: 100%;
+    height: 500px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+}
+h1{
+    color: white;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h2{
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: azure;
+}
+.basliq{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.emoji{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+.unh, .neu, .sat{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#unhappy,#neutral, #satisfied{
+    font-size: 100px;
+    cursor: default;
+}
+#btn{
+    width: 200px;
+    height: 50px;
+    border-radius: 15px;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    border: 2px solid antiquewhite;
+    background-color:lightsalmon;
+    cursor: pointer;
+    margin-top: 30px;
+}
+.hidden {
+    display: none;
+}
